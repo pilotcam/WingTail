@@ -86,6 +86,9 @@ namespace WingTail
                     }
                 }
 
+                _tabControl.TabPages.Remove(_tabPageView);
+                _tabControl.TabPages.Remove(_tabPageFile);
+                _tabControl.TabPages.Remove(_tabPageExtTools);
             }
             else
             {
@@ -96,6 +99,7 @@ namespace WingTail
                 _bookmarkTextColorBtn.Visible = false;
                 _bookmarkBackColorBtn.Visible = false;
             }
+
         }
 
         private void TailConfigForm_Save(object sender, EventArgs e)

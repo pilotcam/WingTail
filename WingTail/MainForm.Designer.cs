@@ -114,7 +114,6 @@ namespace WingTail
             this._mainMenu.Size = new System.Drawing.Size(593, 24);
             this._mainMenu.TabIndex = 4;
             this._mainMenu.Text = "MainMenu";
-            this._mainMenu.Visible = false;
             // 
             // fileToolStripMenuItem
             // 
@@ -132,6 +131,7 @@ namespace WingTail
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.openToolStripMenuItem.Text = "Open File...";
+            this.openToolStripMenuItem.Visible = false;
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // minimizeToTrayToolStripMenuItem
@@ -139,6 +139,7 @@ namespace WingTail
             this.minimizeToTrayToolStripMenuItem.Name = "minimizeToTrayToolStripMenuItem";
             this.minimizeToTrayToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.minimizeToTrayToolStripMenuItem.Text = "Minimize to tray";
+            this.minimizeToTrayToolStripMenuItem.Visible = false;
             this.minimizeToTrayToolStripMenuItem.Click += new System.EventHandler(this.minimizeToTrayToolStripMenuItem_Click);
             // 
             // alwaysOnTopToolStripMenuItem
